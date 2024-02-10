@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './componenets/Navbar'
+import LandingPage from './componenets/LandingPage'
+import Marquee from './componenets/Marquee'
+import About from './componenets/About'
+import Eyes from './componenets/Eyes'
+import Featured from './componenets/Featured'
+import Reviews from './componenets/Reviews'
+import Cards from './componenets/Cards'
+import StartProject from './componenets/StartProject'
+import Footer from './componenets/Footer'
+import LocomotiveScroll from 'locomotive-scroll';
 
-function App() {
+const App = () => {
+  const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='  bg-zinc-800 text-white'>
+      <Navbar />
+      <LandingPage />
+      <Marquee />
+      <About />
+      <Eyes />
+      <Featured />
+      <Reviews />
+      <Cards />
+      <StartProject />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
