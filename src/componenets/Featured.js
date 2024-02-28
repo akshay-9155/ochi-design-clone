@@ -20,11 +20,11 @@ const Featured = () => {
         cards[index].start({y: "100%"})
     }
     return (
-        <div className=' w-full'>
-            <div className="w-full px-10 pt-20 pb-10 border-b-2 border-zinc-600">
-                <h1 className='text-6xl'>Featured Projects</h1>
+        <div className=' w-full '>
+            <div className="w-full px-5 sm:px-10 pt-10 sm:pt-20 pb-10 border-b-2 border-zinc-600">
+                <h1 className=' text-4xl sm:text-6xl'>Featured Projects</h1>
             </div>
-            <div className='flex flex-wrap p-10 gap-y-12 justify-between'>
+            <div className='flex flex-col sm:flex-row flex-wrap px-5 pt-10 sm:p-10 gap-y-12 justify-between'>
             {[
                     {
                         topic: "fyde",
@@ -47,7 +47,7 @@ const Featured = () => {
                         links: ["brand template"]
                     },
                 ].map((item, index) => (
-                    <div key={index} className=' w-1/2 flex flex-col gap-2'>
+                    <div key={index} className=' w-[90vw] sm:w-1/2 flex flex-col gap-2'>
                         <h3 className='uppercase pl-5 flex items-center gap-2'><span className=' text-3xl flex -translate-y-[1.5px] h-full'>•</span>{item.topic}</h3>
                         <div className='p-2'>
                             <motion.div onHoverStart={()=> handleHoverStart(index)} onHoverEnd={()=> handleHoverEnd(index)} className=' relative'>
@@ -64,9 +64,9 @@ const Featured = () => {
                                 <img className='rounded-xl h-full w-full' src={item.url} alt="" />
                             </motion.div>
                         </div>
-                        <div className='flex gap-2'>
+                        <div className='flex flex-wrap gap-5 gap-y-3 sm:gap-2'>
                             {item.links.map((link, index) => (
-                                <a key={index} href="#" className=' px-3 py-1 border-[1px] border-zinc-600 rounded-full flex items-center justify-center'>
+                                <a key={index} href="#" className=' px-6 py-3 sm:px-3 sm:py-1 border-[1px] border-zinc-600 rounded-full flex items-center justify-center'>
                                     <span className='uppercase text-xs cursor-pointer'>{link}</span>
                                 </a>
                             ))}
