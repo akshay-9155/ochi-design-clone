@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ochi-design-clone/static/css/main.0abcf3f3.css",
-    "main.js": "/ochi-design-clone/static/js/main.319babcc.js",
+    "main.css": "/ochi-design-clone/static/css/main.1cdb70e0.css",
+    "main.js": "/ochi-design-clone/static/js/main.2e6f4943.js",
     "static/js/592.bfabf634.chunk.js": "/ochi-design-clone/static/js/592.bfabf634.chunk.js",
     "index.html": "/ochi-design-clone/index.html",
-    "main.0abcf3f3.css.map": "/ochi-design-clone/static/css/main.0abcf3f3.css.map",
-    "main.319babcc.js.map": "/ochi-design-clone/static/js/main.319babcc.js.map",
+    "main.1cdb70e0.css.map": "/ochi-design-clone/static/css/main.1cdb70e0.css.map",
+    "main.2e6f4943.js.map": "/ochi-design-clone/static/js/main.2e6f4943.js.map",
     "592.bfabf634.chunk.js.map": "/ochi-design-clone/static/js/592.bfabf634.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0abcf3f3.css",
-    "static/js/main.319babcc.js"
+    "static/css/main.1cdb70e0.css",
+    "static/js/main.2e6f4943.js"
   ]
 }
